@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const welcomeDisplay = document.getElementById('welcome-display');
     
     let currentBreed = '';
-    const MAX_BREED_BUTTONS = 18; // Limitar a quantidade de raças mostradas
+    const MAX_BREED_BUTTONS = 18; 
     
     async function fetchBreeds() {
         try {
@@ -48,7 +48,6 @@ document.addEventListener('DOMContentLoaded', () => {
             button.textContent = breed.charAt(0).toUpperCase() + breed.slice(1);
             
             button.addEventListener('click', async () => {
-                // Remover classe ativa de todos os botões
                 document.querySelectorAll('.breed-btn').forEach(btn => {
                     btn.classList.remove('active');
                 });
