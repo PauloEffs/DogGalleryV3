@@ -1,4 +1,3 @@
-/* Elemento visual de boas-vindas aprimorado */
 .welcome-display {
     text-align: center;
     margin: 2rem auto 4rem;
@@ -149,7 +148,6 @@
     font-weight: 500;
 }
 
-/* Simplificação das animações para um rosto estático */
 .welcome-image {
     width: 250px;
     height: 250px;
@@ -226,7 +224,6 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Redefine a estrutura básica para cabeçalho e rodapé semelhantes */
 html, body {
     height: 100%;
     margin: 0;
@@ -324,7 +321,6 @@ h1 {
     transform: scaleX(1);
 }
 
-/* Colorize buttons randomly */
 .breed-btn:nth-child(6n+1) {
     border-color: var(--purple);
 }
@@ -513,8 +509,7 @@ footer {
     justify-content: center;
     max-width: 800px;
     margin: 0 auto;
-    height: 100%; /* Ocupar toda altura do footer */
-}
+    height: 100%; 
 
 .footer-logo {
     font-size: 1.5rem;
@@ -542,7 +537,6 @@ footer {
     }
 }
 
-/* Animações */
 @keyframes pulse {
     0% {
         transform: scale(1);
