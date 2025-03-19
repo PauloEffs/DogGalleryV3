@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria Interativa!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1> <span style="font-weight: 300;">Galeria de Cães</span></h1>
+        <p class="subtitle">Apenas escolha uma raça e divirta-se!</p>
+    </header>
+
+    <div class="content-wrapper">
+        <div class="container">
+            <div class="breeds-container" id="breeds-container">
+            </div>
+
+            <h2 class="selected-breed" id="selected-breed">Selecione uma raça</h2>
+            
+            <button class="refresh-btn" id="refresh-btn">Mostrar mais fotos</button>
+
+            <div class="loading" id="loading" style="display: none;">
+                Carregando imagens...
+            </div>
+
+            <div class="error-message" id="error-message"></div>
+            
+            <div class="welcome-display" id="welcome-display">
+                <div class="welcome-image">
+                    <div class="welcome-image-inner">
+                        <img src="https://media.giphy.com/media/51Uiuy5QBZNkoF3b2Z/giphy.gif" alt="Cachorro fofo" class="dog-gif">
+                    </div>
+                </div>
+                <h3 class="welcome-title">Galeria Interativa</h3>
+                <p class="welcome-text">Bem-vindo à nossa coleção exclusiva de imagens caninas! Descubra a beleza e diversidade de diferentes raças de cães com apenas um clique.</p>
+                <div class="welcome-instruction">
+                    <span class="arrow">↑</span> Escolha uma raça acima para começar sua aventura!
+                </div>
+                <div class="welcome-features">
+                    <div class="feature">
+                        <span class="feature-icon">🔍</span>
+                        <span class="feature-text">Explore diferentes raças</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🖼️</span>
+                        <span class="feature-text">Visualize fotos de alta qualidade</span>
+                    </div>
+                    <div class="feature">
+                        <span class="feature-icon">🔄</span>
+                        <span class="feature-text">Atualize para ver mais imagens</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery" id="gallery">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">Paulo_EFFS</div>
+            <p class="footer-text">Especializados em trazer alegria canina para sua vida desde 2025</p>
+            <p>&copy; 2025 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
